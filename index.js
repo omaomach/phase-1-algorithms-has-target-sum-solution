@@ -16,7 +16,7 @@
 // }
 
 function hasTargetSum(array, target) {
-  const seenNumbers = {}
+  const seenNumbers = new Set()
 
   for(const number of array) {
     // n steps
